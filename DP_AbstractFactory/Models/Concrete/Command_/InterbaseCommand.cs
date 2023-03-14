@@ -1,11 +1,7 @@
-﻿using DP_AbstractFactory.Models.Abstract;
+﻿using DP_AbstractFactory.Models.Abstract.Command_;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace DP_AbstractFactory.Models.Concrete.Connect_
+namespace DP_AbstractFactory.Models.Concrete.Command_
 {
     public class InterbaseCommand : Command
     {

@@ -17,11 +17,21 @@ namespace DP_AbstractFactory
         {
             //Abstract Factory is a creational design pattern,
             //which solves the problem of creating entire product families without specifying their concrete classes.
-            Factory _factory = new Factory(new InterbaseFactory());
+            FactoryService _factory = new FactoryService(new InterbaseFactory());
+            _factory.CreateConnection();
+            _factory.CreateCommand();
             _factory.Start();
+            _factory.Stop();
 
-            Factory _factory2 = new Factory(new Db2Factory());
+            Console.WriteLine();
+
+
+
+            FactoryService _factory2 = new FactoryService(new Db2Factory());
+            _factory2.CreateConnection();
+            _factory2.CreateCommand();
             _factory2.Start();
+            _factory2.Stop();
 
             Console.ReadKey();
         }

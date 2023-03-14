@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace DP_AbstractFactory.Models.Abstract.Connect_
+﻿namespace DP_AbstractFactory.Models.Abstract.Connect_
 {
     //Connection ürünleri için soyut tasarım
     public abstract class Connection

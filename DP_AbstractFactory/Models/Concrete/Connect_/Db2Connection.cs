@@ -1,9 +1,5 @@
 ﻿using DP_AbstractFactory.Models.Abstract.Connect_;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace DP_AbstractFactory.Models.Concrete.Connect_
 {
@@ -13,13 +9,13 @@ namespace DP_AbstractFactory.Models.Concrete.Connect_
 
         public override bool Disconnect()
         {
-            Console.WriteLine("Db2Baglantisi kapatilacak");
+            Console.WriteLine("Db2 Baglantisi kapatilacak");
             return true;
         }
 
         public override bool Connect()
         {
-            Console.WriteLine("Db2Baglantisi acilacak");
+            Console.WriteLine("Db2 Baglantisi acilacak");
             return true;
         }
     }
